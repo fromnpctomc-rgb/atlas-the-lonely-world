@@ -1,0 +1,1709 @@
+[gd_scene format=3]
+
+[node name="NomadTerrain" type="Node2D"]
+
+[node name="Mountains" type="Node2D" parent="."]
+
+[node name="Visual" type="Polygon2D" parent="Mountains"]
+
+polygon = PackedVector2Array(-100, -100, 6500, -100, 6500, 1500, -100, 1500)
+
+color = Color(0.15,0.22,0.24,1)
+
+[node name="Mountain_0" type="Node2D" parent="."]
+
+[node name="Visual" type="Polygon2D" parent="Mountain_0"]
+
+polygon = PackedVector2Array(-400, 1300, 0, 600, 250, 440, 700, 1300)
+
+color = Color(0.20,0.28,0.29,1)
+
+[node name="Mountain_1" type="Node2D" parent="."]
+
+[node name="Visual" type="Polygon2D" parent="Mountain_1"]
+
+polygon = PackedVector2Array(300, 1300, 700, 650, 950, 490, 1400, 1300)
+
+color = Color(0.20,0.28,0.29,1)
+
+[node name="Mountain_2" type="Node2D" parent="."]
+
+[node name="Visual" type="Polygon2D" parent="Mountain_2"]
+
+polygon = PackedVector2Array(1100, 1300, 1500, 500, 1750, 340, 2200, 1300)
+
+color = Color(0.20,0.28,0.29,1)
+
+[node name="Mountain_3" type="Node2D" parent="."]
+
+[node name="Visual" type="Polygon2D" parent="Mountain_3"]
+
+polygon = PackedVector2Array(2000, 1300, 2400, 450, 2650, 290, 3100, 1300)
+
+color = Color(0.20,0.28,0.29,1)
+
+[node name="Mountain_4" type="Node2D" parent="."]
+
+[node name="Visual" type="Polygon2D" parent="Mountain_4"]
+
+polygon = PackedVector2Array(2800, 1300, 3200, 200, 3450, 40, 3900, 1300)
+
+color = Color(0.20,0.28,0.29,1)
+
+[node name="Mountain_5" type="Node2D" parent="."]
+
+[node name="Visual" type="Polygon2D" parent="Mountain_5"]
+
+polygon = PackedVector2Array(3600, 1300, 4000, 80, 4250, -80, 4700, 1300)
+
+color = Color(0.20,0.28,0.29,1)
+
+[node name="Mountain_6" type="Node2D" parent="."]
+
+[node name="Visual" type="Polygon2D" parent="Mountain_6"]
+
+polygon = PackedVector2Array(4400, 1300, 4800, 100, 5050, -60, 5500, 1300)
+
+color = Color(0.20,0.28,0.29,1)
+
+[node name="A01_Village_Ascent_0" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="A01_Village_Ascent_0"]
+
+polygon = PackedVector2Array(0, 1200, 500, 1200, 500, 1232, 0, 1232)
+
+[node name="Visual" type="Polygon2D" parent="A01_Village_Ascent_0"]
+
+polygon = PackedVector2Array(0, 1200, 500, 1200, 500, 1232, 0, 1232)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="A01_Village_Ascent_0"]
+
+points = PackedVector2Array(0, 1200, 500, 1200)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="A01_Village_Ascent_1" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="A01_Village_Ascent_1"]
+
+polygon = PackedVector2Array(500, 1200, 750, 1170, 750, 1202, 500, 1232)
+
+[node name="Visual" type="Polygon2D" parent="A01_Village_Ascent_1"]
+
+polygon = PackedVector2Array(500, 1200, 750, 1170, 750, 1202, 500, 1232)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="A01_Village_Ascent_1"]
+
+points = PackedVector2Array(500, 1200, 750, 1170)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="A01_Village_Ascent_2" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="A01_Village_Ascent_2"]
+
+polygon = PackedVector2Array(750, 1170, 1000, 1170, 1000, 1202, 750, 1202)
+
+[node name="Visual" type="Polygon2D" parent="A01_Village_Ascent_2"]
+
+polygon = PackedVector2Array(750, 1170, 1000, 1170, 1000, 1202, 750, 1202)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="A01_Village_Ascent_2"]
+
+points = PackedVector2Array(750, 1170, 1000, 1170)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="A01_Village_Ascent_4" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="A01_Village_Ascent_4"]
+
+polygon = PackedVector2Array(1000, 1140, 1300, 1140, 1300, 1172, 1000, 1172)
+
+[node name="Visual" type="Polygon2D" parent="A01_Village_Ascent_4"]
+
+polygon = PackedVector2Array(1000, 1140, 1300, 1140, 1300, 1172, 1000, 1172)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="A01_Village_Ascent_4"]
+
+points = PackedVector2Array(1000, 1140, 1300, 1140)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="A01_Village_Ascent_5" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="A01_Village_Ascent_5"]
+
+polygon = PackedVector2Array(1300, 1140, 1550, 1090, 1550, 1122, 1300, 1172)
+
+[node name="Visual" type="Polygon2D" parent="A01_Village_Ascent_5"]
+
+polygon = PackedVector2Array(1300, 1140, 1550, 1090, 1550, 1122, 1300, 1172)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="A01_Village_Ascent_5"]
+
+points = PackedVector2Array(1300, 1140, 1550, 1090)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="A01_Village_Ascent_7" type="StaticBody2D" parent="." groups=["grabbable"]]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="A01_Village_Ascent_7"]
+
+polygon = PackedVector2Array(1550, 1028, 1800, 1028, 1800, 1060, 1550, 1060)
+
+[node name="Visual" type="Polygon2D" parent="A01_Village_Ascent_7"]
+
+polygon = PackedVector2Array(1550, 1028, 1800, 1028, 1800, 1060, 1550, 1060)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="A01_Village_Ascent_7"]
+
+points = PackedVector2Array(1550, 1028, 1800, 1028)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="A01_Village_Ascent_8" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="A01_Village_Ascent_8"]
+
+polygon = PackedVector2Array(1800, 1028, 2100, 980, 2100, 1012, 1800, 1060)
+
+[node name="Visual" type="Polygon2D" parent="A01_Village_Ascent_8"]
+
+polygon = PackedVector2Array(1800, 1028, 2100, 980, 2100, 1012, 1800, 1060)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="A01_Village_Ascent_8"]
+
+points = PackedVector2Array(1800, 1028, 2100, 980)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="A01_Village_Ascent_9" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="A01_Village_Ascent_9"]
+
+polygon = PackedVector2Array(2100, 980, 2150, 980, 2150, 1012, 2100, 1012)
+
+[node name="Visual" type="Polygon2D" parent="A01_Village_Ascent_9"]
+
+polygon = PackedVector2Array(2100, 980, 2150, 980, 2150, 1012, 2100, 1012)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="A01_Village_Ascent_9"]
+
+points = PackedVector2Array(2100, 980, 2150, 980)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="A01_Village_Ascent_11" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="A01_Village_Ascent_11"]
+
+polygon = PackedVector2Array(2150, 952, 2300, 952, 2300, 984, 2150, 984)
+
+[node name="Visual" type="Polygon2D" parent="A01_Village_Ascent_11"]
+
+polygon = PackedVector2Array(2150, 952, 2300, 952, 2300, 984, 2150, 984)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="A01_Village_Ascent_11"]
+
+points = PackedVector2Array(2150, 952, 2300, 952)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="A01_Village_Ascent_12" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="A01_Village_Ascent_12"]
+
+polygon = PackedVector2Array(2300, 952, 2400, 900, 2400, 932, 2300, 984)
+
+[node name="Visual" type="Polygon2D" parent="A01_Village_Ascent_12"]
+
+polygon = PackedVector2Array(2300, 952, 2400, 900, 2400, 932, 2300, 984)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="A01_Village_Ascent_12"]
+
+points = PackedVector2Array(2300, 952, 2400, 900)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="A01_Village_Ascent_13" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="A01_Village_Ascent_13"]
+
+polygon = PackedVector2Array(2400, 900, 2700, 820, 2700, 852, 2400, 932)
+
+[node name="Visual" type="Polygon2D" parent="A01_Village_Ascent_13"]
+
+polygon = PackedVector2Array(2400, 900, 2700, 820, 2700, 852, 2400, 932)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="A01_Village_Ascent_13"]
+
+points = PackedVector2Array(2400, 900, 2700, 820)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="A01_Village_Ascent_14" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="A01_Village_Ascent_14"]
+
+polygon = PackedVector2Array(2700, 820, 2750, 820, 2750, 852, 2700, 852)
+
+[node name="Visual" type="Polygon2D" parent="A01_Village_Ascent_14"]
+
+polygon = PackedVector2Array(2700, 820, 2750, 820, 2750, 852, 2700, 852)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="A01_Village_Ascent_14"]
+
+points = PackedVector2Array(2700, 820, 2750, 820)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="A01_Village_Ascent_16" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="A01_Village_Ascent_16"]
+
+polygon = PackedVector2Array(2750, 788, 2850, 788, 2850, 820, 2750, 820)
+
+[node name="Visual" type="Polygon2D" parent="A01_Village_Ascent_16"]
+
+polygon = PackedVector2Array(2750, 788, 2850, 788, 2850, 820, 2750, 820)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="A01_Village_Ascent_16"]
+
+points = PackedVector2Array(2750, 788, 2850, 788)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="A01_Village_Ascent_17" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="A01_Village_Ascent_17"]
+
+polygon = PackedVector2Array(2850, 788, 2950, 760, 2950, 792, 2850, 820)
+
+[node name="Visual" type="Polygon2D" parent="A01_Village_Ascent_17"]
+
+polygon = PackedVector2Array(2850, 788, 2950, 760, 2950, 792, 2850, 820)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="A01_Village_Ascent_17"]
+
+points = PackedVector2Array(2850, 788, 2950, 760)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="A01_Village_Ascent_19" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="A01_Village_Ascent_19"]
+
+polygon = PackedVector2Array(2950, 730, 3200, 650, 3200, 682, 2950, 762)
+
+[node name="Visual" type="Polygon2D" parent="A01_Village_Ascent_19"]
+
+polygon = PackedVector2Array(2950, 730, 3200, 650, 3200, 682, 2950, 762)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="A01_Village_Ascent_19"]
+
+points = PackedVector2Array(2950, 730, 3200, 650)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="A01_Village_Ascent_20" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="A01_Village_Ascent_20"]
+
+polygon = PackedVector2Array(3200, 650, 3400, 610, 3400, 642, 3200, 682)
+
+[node name="Visual" type="Polygon2D" parent="A01_Village_Ascent_20"]
+
+polygon = PackedVector2Array(3200, 650, 3400, 610, 3400, 642, 3200, 682)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="A01_Village_Ascent_20"]
+
+points = PackedVector2Array(3200, 650, 3400, 610)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="A01_Village_Ascent_21" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="A01_Village_Ascent_21"]
+
+polygon = PackedVector2Array(3400, 610, 3500, 610, 3500, 642, 3400, 642)
+
+[node name="Visual" type="Polygon2D" parent="A01_Village_Ascent_21"]
+
+polygon = PackedVector2Array(3400, 610, 3500, 610, 3500, 642, 3400, 642)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="A01_Village_Ascent_21"]
+
+points = PackedVector2Array(3400, 610, 3500, 610)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="A02_Ascent_Before_Brittle_0" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="A02_Ascent_Before_Brittle_0"]
+
+polygon = PackedVector2Array(3500, 610, 3600, 580, 3600, 612, 3500, 642)
+
+[node name="Visual" type="Polygon2D" parent="A02_Ascent_Before_Brittle_0"]
+
+polygon = PackedVector2Array(3500, 610, 3600, 580, 3600, 612, 3500, 642)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="A02_Ascent_Before_Brittle_0"]
+
+points = PackedVector2Array(3500, 610, 3600, 580)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="A02_Ascent_Before_Brittle_1" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="A02_Ascent_Before_Brittle_1"]
+
+polygon = PackedVector2Array(3600, 580, 3700, 550, 3700, 582, 3600, 612)
+
+[node name="Visual" type="Polygon2D" parent="A02_Ascent_Before_Brittle_1"]
+
+polygon = PackedVector2Array(3600, 580, 3700, 550, 3700, 582, 3600, 612)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="A02_Ascent_Before_Brittle_1"]
+
+points = PackedVector2Array(3600, 580, 3700, 550)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="A02_Ascent_After_Brittle_0" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="A02_Ascent_After_Brittle_0"]
+
+polygon = PackedVector2Array(3755, 550, 3950, 520, 3950, 552, 3755, 582)
+
+[node name="Visual" type="Polygon2D" parent="A02_Ascent_After_Brittle_0"]
+
+polygon = PackedVector2Array(3755, 550, 3950, 520, 3950, 552, 3755, 582)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="A02_Ascent_After_Brittle_0"]
+
+points = PackedVector2Array(3755, 550, 3950, 520)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="A02_Ascent_After_Brittle_1" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="A02_Ascent_After_Brittle_1"]
+
+polygon = PackedVector2Array(3950, 520, 4200, 440, 4200, 472, 3950, 552)
+
+[node name="Visual" type="Polygon2D" parent="A02_Ascent_After_Brittle_1"]
+
+polygon = PackedVector2Array(3950, 520, 4200, 440, 4200, 472, 3950, 552)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="A02_Ascent_After_Brittle_1"]
+
+points = PackedVector2Array(3950, 520, 4200, 440)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="A02_Ascent_After_Brittle_2" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="A02_Ascent_After_Brittle_2"]
+
+polygon = PackedVector2Array(4200, 440, 4400, 380, 4400, 412, 4200, 472)
+
+[node name="Visual" type="Polygon2D" parent="A02_Ascent_After_Brittle_2"]
+
+polygon = PackedVector2Array(4200, 440, 4400, 380, 4400, 412, 4200, 472)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="A02_Ascent_After_Brittle_2"]
+
+points = PackedVector2Array(4200, 440, 4400, 380)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="A02_Ascent_After_Brittle_3" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="A02_Ascent_After_Brittle_3"]
+
+polygon = PackedVector2Array(4400, 380, 4500, 380, 4500, 412, 4400, 412)
+
+[node name="Visual" type="Polygon2D" parent="A02_Ascent_After_Brittle_3"]
+
+polygon = PackedVector2Array(4400, 380, 4500, 380, 4500, 412, 4400, 412)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="A02_Ascent_After_Brittle_3"]
+
+points = PackedVector2Array(4400, 380, 4500, 380)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="A02_Ascent_After_Brittle_5" type="StaticBody2D" parent="." groups=["grabbable"]]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="A02_Ascent_After_Brittle_5"]
+
+polygon = PackedVector2Array(4500, 350, 4700, 300, 4700, 332, 4500, 382)
+
+[node name="Visual" type="Polygon2D" parent="A02_Ascent_After_Brittle_5"]
+
+polygon = PackedVector2Array(4500, 350, 4700, 300, 4700, 332, 4500, 382)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="A02_Ascent_After_Brittle_5"]
+
+points = PackedVector2Array(4500, 350, 4700, 300)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="A02_Ascent_After_Brittle_6" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="A02_Ascent_After_Brittle_6"]
+
+polygon = PackedVector2Array(4700, 300, 4780, 300, 4780, 332, 4700, 332)
+
+[node name="Visual" type="Polygon2D" parent="A02_Ascent_After_Brittle_6"]
+
+polygon = PackedVector2Array(4700, 300, 4780, 300, 4780, 332, 4700, 332)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="A02_Ascent_After_Brittle_6"]
+
+points = PackedVector2Array(4700, 300, 4780, 300)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="A02_Brittle_Recovery_0" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="A02_Brittle_Recovery_0"]
+
+polygon = PackedVector2Array(3650, 620, 3780, 620, 3780, 652, 3650, 652)
+
+[node name="Visual" type="Polygon2D" parent="A02_Brittle_Recovery_0"]
+
+polygon = PackedVector2Array(3650, 620, 3780, 620, 3780, 652, 3650, 652)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="A02_Brittle_Recovery_0"]
+
+points = PackedVector2Array(3650, 620, 3780, 620)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="A02_Brittle_Recovery_1" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="A02_Brittle_Recovery_1"]
+
+polygon = PackedVector2Array(3780, 620, 3870, 580, 3870, 612, 3780, 652)
+
+[node name="Visual" type="Polygon2D" parent="A02_Brittle_Recovery_1"]
+
+polygon = PackedVector2Array(3780, 620, 3870, 580, 3870, 612, 3780, 652)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="A02_Brittle_Recovery_1"]
+
+points = PackedVector2Array(3780, 620, 3870, 580)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="Fracture_Overhang" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="Fracture_Overhang"]
+
+polygon = PackedVector2Array(3930, 428, 4150, 358, 4150, 378, 3930, 448)
+
+[node name="Visual" type="Polygon2D" parent="Fracture_Overhang"]
+
+polygon = PackedVector2Array(3930, 428, 4150, 358, 4150, 378, 3930, 448)
+
+color = Color(0.31,0.37,0.36,1)
+
+[node name="Edge" type="Line2D" parent="Fracture_Overhang"]
+
+points = PackedVector2Array(3930, 428, 4150, 358)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="A03_Leftward_Switchback_0" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="A03_Leftward_Switchback_0"]
+
+polygon = PackedVector2Array(2750, 960, 2900, 960, 2900, 992, 2750, 992)
+
+[node name="Visual" type="Polygon2D" parent="A03_Leftward_Switchback_0"]
+
+polygon = PackedVector2Array(2750, 960, 2900, 960, 2900, 992, 2750, 992)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="A03_Leftward_Switchback_0"]
+
+points = PackedVector2Array(2750, 960, 2900, 960)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="A03_Leftward_Switchback_1" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="A03_Leftward_Switchback_1"]
+
+polygon = PackedVector2Array(2900, 960, 3100, 910, 3100, 942, 2900, 992)
+
+[node name="Visual" type="Polygon2D" parent="A03_Leftward_Switchback_1"]
+
+polygon = PackedVector2Array(2900, 960, 3100, 910, 3100, 942, 2900, 992)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="A03_Leftward_Switchback_1"]
+
+points = PackedVector2Array(2900, 960, 3100, 910)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="A03_Leftward_Switchback_2" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="A03_Leftward_Switchback_2"]
+
+polygon = PackedVector2Array(3100, 910, 3300, 860, 3300, 892, 3100, 942)
+
+[node name="Visual" type="Polygon2D" parent="A03_Leftward_Switchback_2"]
+
+polygon = PackedVector2Array(3100, 910, 3300, 860, 3300, 892, 3100, 942)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="A03_Leftward_Switchback_2"]
+
+points = PackedVector2Array(3100, 910, 3300, 860)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="A03_Leftward_Switchback_3" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="A03_Leftward_Switchback_3"]
+
+polygon = PackedVector2Array(3300, 860, 3500, 800, 3500, 832, 3300, 892)
+
+[node name="Visual" type="Polygon2D" parent="A03_Leftward_Switchback_3"]
+
+polygon = PackedVector2Array(3300, 860, 3500, 800, 3500, 832, 3300, 892)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="A03_Leftward_Switchback_3"]
+
+points = PackedVector2Array(3300, 860, 3500, 800)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="A03_Leftward_Switchback_4" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="A03_Leftward_Switchback_4"]
+
+polygon = PackedVector2Array(3500, 800, 3750, 740, 3750, 772, 3500, 832)
+
+[node name="Visual" type="Polygon2D" parent="A03_Leftward_Switchback_4"]
+
+polygon = PackedVector2Array(3500, 800, 3750, 740, 3750, 772, 3500, 832)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="A03_Leftward_Switchback_4"]
+
+points = PackedVector2Array(3500, 800, 3750, 740)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="A03_Leftward_Switchback_5" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="A03_Leftward_Switchback_5"]
+
+polygon = PackedVector2Array(3750, 740, 4000, 660, 4000, 692, 3750, 772)
+
+[node name="Visual" type="Polygon2D" parent="A03_Leftward_Switchback_5"]
+
+polygon = PackedVector2Array(3750, 740, 4000, 660, 4000, 692, 3750, 772)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="A03_Leftward_Switchback_5"]
+
+points = PackedVector2Array(3750, 740, 4000, 660)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="A03_Leftward_Switchback_6" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="A03_Leftward_Switchback_6"]
+
+polygon = PackedVector2Array(4000, 660, 4200, 590, 4200, 622, 4000, 692)
+
+[node name="Visual" type="Polygon2D" parent="A03_Leftward_Switchback_6"]
+
+polygon = PackedVector2Array(4000, 660, 4200, 590, 4200, 622, 4000, 692)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="A03_Leftward_Switchback_6"]
+
+points = PackedVector2Array(4000, 660, 4200, 590)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="A03_Leftward_Switchback_7" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="A03_Leftward_Switchback_7"]
+
+polygon = PackedVector2Array(4200, 590, 4400, 510, 4400, 542, 4200, 622)
+
+[node name="Visual" type="Polygon2D" parent="A03_Leftward_Switchback_7"]
+
+polygon = PackedVector2Array(4200, 590, 4400, 510, 4400, 542, 4200, 622)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="A03_Leftward_Switchback_7"]
+
+points = PackedVector2Array(4200, 590, 4400, 510)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="A03_Leftward_Switchback_8" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="A03_Leftward_Switchback_8"]
+
+polygon = PackedVector2Array(4400, 510, 4600, 460, 4600, 492, 4400, 542)
+
+[node name="Visual" type="Polygon2D" parent="A03_Leftward_Switchback_8"]
+
+polygon = PackedVector2Array(4400, 510, 4600, 460, 4600, 492, 4400, 542)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="A03_Leftward_Switchback_8"]
+
+points = PackedVector2Array(4400, 510, 4600, 460)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="A03_Leftward_Switchback_9" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="A03_Leftward_Switchback_9"]
+
+polygon = PackedVector2Array(4600, 460, 4850, 400, 4850, 432, 4600, 492)
+
+[node name="Visual" type="Polygon2D" parent="A03_Leftward_Switchback_9"]
+
+polygon = PackedVector2Array(4600, 460, 4850, 400, 4850, 432, 4600, 492)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="A03_Leftward_Switchback_9"]
+
+points = PackedVector2Array(4600, 460, 4850, 400)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="Crest_Rock_Stop" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="Crest_Rock_Stop"]
+
+polygon = PackedVector2Array(4860, 140, 4950, 140, 4950, 380, 4860, 380)
+
+[node name="Visual" type="Polygon2D" parent="Crest_Rock_Stop"]
+
+polygon = PackedVector2Array(4860, 140, 4950, 140, 4950, 380, 4860, 380)
+
+color = Color(0.28,0.34,0.34,1)
+
+[node name="Edge" type="Line2D" parent="Crest_Rock_Stop"]
+
+points = PackedVector2Array(4860, 140, 4950, 140)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="Mouth_Approach_0" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="Mouth_Approach_0"]
+
+polygon = PackedVector2Array(2600, 1020, 2750, 1020, 2750, 1040, 2600, 1040)
+
+[node name="Visual" type="Polygon2D" parent="Mouth_Approach_0"]
+
+polygon = PackedVector2Array(2600, 1020, 2750, 1020, 2750, 1040, 2600, 1040)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="Mouth_Approach_0"]
+
+points = PackedVector2Array(2600, 1020, 2750, 1020)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="Cave_Floor_Left_0" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="Cave_Floor_Left_0"]
+
+polygon = PackedVector2Array(2450, 1120, 3450, 1120, 3450, 1152, 2450, 1152)
+
+[node name="Visual" type="Polygon2D" parent="Cave_Floor_Left_0"]
+
+polygon = PackedVector2Array(2450, 1120, 3450, 1120, 3450, 1152, 2450, 1152)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="Cave_Floor_Left_0"]
+
+points = PackedVector2Array(2450, 1120, 3450, 1120)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="Cave_Floor_Right_0" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="Cave_Floor_Right_0"]
+
+polygon = PackedVector2Array(3505, 1120, 5300, 1120, 5300, 1180, 3505, 1180)
+
+[node name="Visual" type="Polygon2D" parent="Cave_Floor_Right_0"]
+
+polygon = PackedVector2Array(3505, 1120, 5300, 1120, 5300, 1180, 3505, 1180)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="Cave_Floor_Right_0"]
+
+points = PackedVector2Array(3505, 1120, 5300, 1120)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="Cave_Floor_Right_1" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="Cave_Floor_Right_1"]
+
+polygon = PackedVector2Array(5300, 1120, 5500, 1120, 5500, 1180, 5300, 1180)
+
+[node name="Visual" type="Polygon2D" parent="Cave_Floor_Right_1"]
+
+polygon = PackedVector2Array(5300, 1120, 5500, 1120, 5500, 1180, 5300, 1180)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="Cave_Floor_Right_1"]
+
+points = PackedVector2Array(5300, 1120, 5500, 1120)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="Cave_Floor_Right_2" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="Cave_Floor_Right_2"]
+
+polygon = PackedVector2Array(5500, 1120, 6200, 1120, 6200, 1180, 5500, 1180)
+
+[node name="Visual" type="Polygon2D" parent="Cave_Floor_Right_2"]
+
+polygon = PackedVector2Array(5500, 1120, 6200, 1120, 6200, 1180, 5500, 1180)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="Cave_Floor_Right_2"]
+
+points = PackedVector2Array(5500, 1120, 6200, 1120)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="Cave_Masonry_Recovery_0" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="Cave_Masonry_Recovery_0"]
+
+polygon = PackedVector2Array(3400, 1180, 3560, 1180, 3560, 1212, 3400, 1212)
+
+[node name="Visual" type="Polygon2D" parent="Cave_Masonry_Recovery_0"]
+
+polygon = PackedVector2Array(3400, 1180, 3560, 1180, 3560, 1212, 3400, 1212)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="Cave_Masonry_Recovery_0"]
+
+points = PackedVector2Array(3400, 1180, 3560, 1180)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="Cave_Masonry_Recovery_1" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="Cave_Masonry_Recovery_1"]
+
+polygon = PackedVector2Array(3560, 1180, 3660, 1150, 3660, 1182, 3560, 1212)
+
+[node name="Visual" type="Polygon2D" parent="Cave_Masonry_Recovery_1"]
+
+polygon = PackedVector2Array(3560, 1180, 3660, 1150, 3660, 1182, 3560, 1212)
+
+color = Color(0.38,0.43,0.39,1)
+
+[node name="Edge" type="Line2D" parent="Cave_Masonry_Recovery_1"]
+
+points = PackedVector2Array(3560, 1180, 3660, 1150)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="Roof_Stand" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="Roof_Stand"]
+
+polygon = PackedVector2Array(2900, 1022, 3400, 1022, 3400, 1040, 2900, 1040)
+
+[node name="Visual" type="Polygon2D" parent="Roof_Stand"]
+
+polygon = PackedVector2Array(2900, 1022, 3400, 1022, 3400, 1040, 2900, 1040)
+
+color = Color(0.33,0.37,0.37,1)
+
+[node name="Edge" type="Line2D" parent="Roof_Stand"]
+
+points = PackedVector2Array(2900, 1022, 3400, 1022)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="Roof_Crouch" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="Roof_Crouch"]
+
+polygon = PackedVector2Array(3400, 1060, 3900, 1060, 3900, 1080, 3400, 1080)
+
+[node name="Visual" type="Polygon2D" parent="Roof_Crouch"]
+
+polygon = PackedVector2Array(3400, 1060, 3900, 1060, 3900, 1080, 3400, 1080)
+
+color = Color(0.33,0.37,0.37,1)
+
+[node name="Edge" type="Line2D" parent="Roof_Crouch"]
+
+points = PackedVector2Array(3400, 1060, 3900, 1060)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="Roof_Crawl" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="Roof_Crawl"]
+
+polygon = PackedVector2Array(3900, 1078, 4500, 1078, 4500, 1096, 3900, 1096)
+
+[node name="Visual" type="Polygon2D" parent="Roof_Crawl"]
+
+polygon = PackedVector2Array(3900, 1078, 4500, 1078, 4500, 1096, 3900, 1096)
+
+color = Color(0.33,0.37,0.37,1)
+
+[node name="Edge" type="Line2D" parent="Roof_Crawl"]
+
+points = PackedVector2Array(3900, 1078, 4500, 1078)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="Roof_Crouch_Exit" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="Roof_Crouch_Exit"]
+
+polygon = PackedVector2Array(4500, 1060, 5000, 1060, 5000, 1080, 4500, 1080)
+
+[node name="Visual" type="Polygon2D" parent="Roof_Crouch_Exit"]
+
+polygon = PackedVector2Array(4500, 1060, 5000, 1060, 5000, 1080, 4500, 1080)
+
+color = Color(0.33,0.37,0.37,1)
+
+[node name="Edge" type="Line2D" parent="Roof_Crouch_Exit"]
+
+points = PackedVector2Array(4500, 1060, 5000, 1060)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="Roof_Stand_Exit" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="Roof_Stand_Exit"]
+
+polygon = PackedVector2Array(5000, 1002, 5400, 1002, 5400, 1040, 5000, 1040)
+
+[node name="Visual" type="Polygon2D" parent="Roof_Stand_Exit"]
+
+polygon = PackedVector2Array(5000, 1002, 5400, 1002, 5400, 1040, 5000, 1040)
+
+color = Color(0.33,0.37,0.37,1)
+
+[node name="Edge" type="Line2D" parent="Roof_Stand_Exit"]
+
+points = PackedVector2Array(5000, 1002, 5400, 1002)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="Optional_0" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="Optional_0"]
+
+polygon = PackedVector2Array(900, 1100, 1030, 1100, 1030, 1116, 900, 1116)
+
+one_way_collision = true
+
+[node name="Visual" type="Polygon2D" parent="Optional_0"]
+
+polygon = PackedVector2Array(900, 1100, 1030, 1100, 1030, 1116, 900, 1116)
+
+color = Color(0.49,0.45,0.34,1)
+
+[node name="Edge" type="Line2D" parent="Optional_0"]
+
+points = PackedVector2Array(900, 1100, 1030, 1100)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="Optional_1" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="Optional_1"]
+
+polygon = PackedVector2Array(1100, 1070, 1250, 1070, 1250, 1086, 1100, 1086)
+
+one_way_collision = true
+
+[node name="Visual" type="Polygon2D" parent="Optional_1"]
+
+polygon = PackedVector2Array(1100, 1070, 1250, 1070, 1250, 1086, 1100, 1086)
+
+color = Color(0.49,0.45,0.34,1)
+
+[node name="Edge" type="Line2D" parent="Optional_1"]
+
+points = PackedVector2Array(1100, 1070, 1250, 1070)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="Optional_2" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="Optional_2"]
+
+polygon = PackedVector2Array(1300, 1070, 1440, 1070, 1440, 1086, 1300, 1086)
+
+one_way_collision = true
+
+[node name="Visual" type="Polygon2D" parent="Optional_2"]
+
+polygon = PackedVector2Array(1300, 1070, 1440, 1070, 1440, 1086, 1300, 1086)
+
+color = Color(0.49,0.45,0.34,1)
+
+[node name="Edge" type="Line2D" parent="Optional_2"]
+
+points = PackedVector2Array(1300, 1070, 1440, 1070)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="Optional_3" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="Optional_3"]
+
+polygon = PackedVector2Array(1450, 1090, 1560, 1090, 1560, 1106, 1450, 1106)
+
+one_way_collision = true
+
+[node name="Visual" type="Polygon2D" parent="Optional_3"]
+
+polygon = PackedVector2Array(1450, 1090, 1560, 1090, 1560, 1106, 1450, 1106)
+
+color = Color(0.49,0.45,0.34,1)
+
+[node name="Edge" type="Line2D" parent="Optional_3"]
+
+points = PackedVector2Array(1450, 1090, 1560, 1090)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="Optional_4" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="Optional_4"]
+
+polygon = PackedVector2Array(3120, 610, 3240, 610, 3240, 626, 3120, 626)
+
+one_way_collision = true
+
+[node name="Visual" type="Polygon2D" parent="Optional_4"]
+
+polygon = PackedVector2Array(3120, 610, 3240, 610, 3240, 626, 3120, 626)
+
+color = Color(0.49,0.45,0.34,1)
+
+[node name="Edge" type="Line2D" parent="Optional_4"]
+
+points = PackedVector2Array(3120, 610, 3240, 610)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="Optional_5" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="Optional_5"]
+
+polygon = PackedVector2Array(3300, 580, 3420, 580, 3420, 596, 3300, 596)
+
+one_way_collision = true
+
+[node name="Visual" type="Polygon2D" parent="Optional_5"]
+
+polygon = PackedVector2Array(3300, 580, 3420, 580, 3420, 596, 3300, 596)
+
+color = Color(0.49,0.45,0.34,1)
+
+[node name="Edge" type="Line2D" parent="Optional_5"]
+
+points = PackedVector2Array(3300, 580, 3420, 580)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="Optional_6" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="Optional_6"]
+
+polygon = PackedVector2Array(3450, 580, 3590, 580, 3590, 596, 3450, 596)
+
+one_way_collision = true
+
+[node name="Visual" type="Polygon2D" parent="Optional_6"]
+
+polygon = PackedVector2Array(3450, 580, 3590, 580, 3590, 596, 3450, 596)
+
+color = Color(0.49,0.45,0.34,1)
+
+[node name="Edge" type="Line2D" parent="Optional_6"]
+
+points = PackedVector2Array(3450, 580, 3590, 580)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="Optional_7" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="Optional_7"]
+
+polygon = PackedVector2Array(4100, 380, 4250, 380, 4250, 396, 4100, 396)
+
+one_way_collision = true
+
+[node name="Visual" type="Polygon2D" parent="Optional_7"]
+
+polygon = PackedVector2Array(4100, 380, 4250, 380, 4250, 396, 4100, 396)
+
+color = Color(0.49,0.45,0.34,1)
+
+[node name="Edge" type="Line2D" parent="Optional_7"]
+
+points = PackedVector2Array(4100, 380, 4250, 380)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="Optional_8" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="Optional_8"]
+
+polygon = PackedVector2Array(4250, 350, 4410, 350, 4410, 366, 4250, 366)
+
+one_way_collision = true
+
+[node name="Visual" type="Polygon2D" parent="Optional_8"]
+
+polygon = PackedVector2Array(4250, 350, 4410, 350, 4410, 366, 4250, 366)
+
+color = Color(0.49,0.45,0.34,1)
+
+[node name="Edge" type="Line2D" parent="Optional_8"]
+
+points = PackedVector2Array(4250, 350, 4410, 350)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="House_0" type="Node2D" parent="."]
+
+[node name="Visual" type="Polygon2D" parent="House_0"]
+
+polygon = PackedVector2Array(50, 1070, 160, 1070, 160, 1200, 50, 1200)
+
+color = Color(0.49,0.40,0.31,1)
+
+[node name="Door_0" type="Node2D" parent="."]
+
+[node name="Visual" type="Polygon2D" parent="Door_0"]
+
+polygon = PackedVector2Array(90, 1140, 115, 1140, 115, 1200, 90, 1200)
+
+color = Color(0.16,0.22,0.23,1)
+
+[node name="Cloth_0" type="Node2D" parent="."]
+
+[node name="Visual" type="Polygon2D" parent="Cloth_0"]
+
+polygon = PackedVector2Array(42, 1060, 168, 1060, 168, 1078, 42, 1078)
+
+color = Color(0.61,0.51,0.36,1)
+
+[node name="House_1" type="Node2D" parent="."]
+
+[node name="Visual" type="Polygon2D" parent="House_1"]
+
+polygon = PackedVector2Array(420, 1070, 530, 1070, 530, 1200, 420, 1200)
+
+color = Color(0.49,0.40,0.31,1)
+
+[node name="Door_1" type="Node2D" parent="."]
+
+[node name="Visual" type="Polygon2D" parent="Door_1"]
+
+polygon = PackedVector2Array(460, 1140, 485, 1140, 485, 1200, 460, 1200)
+
+color = Color(0.16,0.22,0.23,1)
+
+[node name="Cloth_1" type="Node2D" parent="."]
+
+[node name="Visual" type="Polygon2D" parent="Cloth_1"]
+
+polygon = PackedVector2Array(412, 1060, 538, 1060, 538, 1078, 412, 1078)
+
+color = Color(0.61,0.51,0.36,1)
+
+[node name="House_2" type="Node2D" parent="."]
+
+[node name="Visual" type="Polygon2D" parent="House_2"]
+
+polygon = PackedVector2Array(920, 1040, 1030, 1040, 1030, 1170, 920, 1170)
+
+color = Color(0.49,0.40,0.31,1)
+
+[node name="Door_2" type="Node2D" parent="."]
+
+[node name="Visual" type="Polygon2D" parent="Door_2"]
+
+polygon = PackedVector2Array(960, 1110, 985, 1110, 985, 1170, 960, 1170)
+
+color = Color(0.16,0.22,0.23,1)
+
+[node name="Cloth_2" type="Node2D" parent="."]
+
+[node name="Visual" type="Polygon2D" parent="Cloth_2"]
+
+polygon = PackedVector2Array(912, 1030, 1038, 1030, 1038, 1048, 912, 1048)
+
+color = Color(0.61,0.51,0.36,1)
+
+[node name="Resident_0" type="Node2D" parent="."]
+
+[node name="Visual" type="Polygon2D" parent="Resident_0"]
+
+polygon = PackedVector2Array(600, 1160, 612, 1160, 612, 1188, 600, 1188)
+
+color = Color(0.64,0.56,0.42,1)
+
+[node name="Resident_1" type="Node2D" parent="."]
+
+[node name="Visual" type="Polygon2D" parent="Resident_1"]
+
+polygon = PackedVector2Array(1250, 1102, 1262, 1102, 1262, 1130, 1250, 1130)
+
+color = Color(0.64,0.56,0.42,1)
+
+[node name="Resident_2" type="Node2D" parent="."]
+
+[node name="Visual" type="Polygon2D" parent="Resident_2"]
+
+polygon = PackedVector2Array(1700, 1022, 1712, 1022, 1712, 1050, 1700, 1050)
+
+color = Color(0.64,0.56,0.42,1)
+
+[node name="Split_Crown" type="Node2D" parent="."]
+
+[node name="Visual" type="Polygon2D" parent="Split_Crown"]
+
+polygon = PackedVector2Array(3300, 650, 3300, 510, 3330, 480, 3340, 530, 3360, 480, 3390, 520, 3390, 650)
+
+color = Color(0.46,0.51,0.44,1)
+
+[node name="Leaning_Needle" type="Node2D" parent="."]
+
+[node name="Visual" type="Polygon2D" parent="Leaning_Needle"]
+
+polygon = PackedVector2Array(3600, 585, 3645, 430, 3670, 435, 3640, 585)
+
+color = Color(0.47,0.52,0.45,1)
+
+[node name="Witness_Stone" type="Node2D" parent="."]
+
+[node name="Visual" type="Polygon2D" parent="Witness_Stone"]
+
+polygon = PackedVector2Array(3830, 550, 3840, 440, 3890, 430, 3920, 470, 3910, 550)
+
+color = Color(0.45,0.49,0.44,1)
+
+[node name="Broken_Bridge_Far" type="Node2D" parent="."]
+
+[node name="Visual" type="Polygon2D" parent="Broken_Bridge_Far"]
+
+polygon = PackedVector2Array(5680, 900, 5940, 900, 5940, 935, 5680, 935)
+
+color = Color(0.33,0.40,0.41,1)
+
+[node name="Bridge_Pier" type="Node2D" parent="."]
+
+[node name="Visual" type="Polygon2D" parent="Bridge_Pier"]
+
+polygon = PackedVector2Array(5940, 840, 5985, 840, 5985, 1090, 5940, 1090)
+
+color = Color(0.32,0.39,0.40,1)
+
+[node name="Left_Wall" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="Left_Wall"]
+
+polygon = PackedVector2Array(-30, 0, 0, 0, 0, 1500, -30, 1500)
+
+[node name="Visual" type="Polygon2D" parent="Left_Wall"]
+
+polygon = PackedVector2Array(-30, 0, 0, 0, 0, 1500, -30, 1500)
+
+color = Color(0.33,0.37,0.37,1)
+
+[node name="Edge" type="Line2D" parent="Left_Wall"]
+
+points = PackedVector2Array(-30, 0, 0, 0)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)
+
+[node name="Boundary_R02" type="StaticBody2D" parent="."]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="Boundary_R02"]
+
+polygon = PackedVector2Array(6190, 1010, 6210, 1010, 6210, 1210, 6190, 1210)
+
+[node name="Visual" type="Polygon2D" parent="Boundary_R02"]
+
+polygon = PackedVector2Array(6190, 1010, 6210, 1010, 6210, 1210, 6190, 1210)
+
+color = Color(0.33,0.37,0.37,1)
+
+[node name="Edge" type="Line2D" parent="Boundary_R02"]
+
+points = PackedVector2Array(6190, 1010, 6210, 1010)
+
+width = 2.0
+
+default_color = Color(0.78,0.81,0.69,1)

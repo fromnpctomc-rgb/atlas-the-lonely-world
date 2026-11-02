@@ -1,0 +1,231 @@
+[gd_scene format=3]
+
+[node name="R01_A06" type="Node2D"]
+
+[node name="Backdrop" type="Node2D" parent="."]
+
+[node name="Surface" type="Polygon2D" parent="Backdrop"]
+
+polygon = PackedVector2Array(0, 0, 4000, 0, 4000, 1000, 0, 1000)
+
+color = Color(0.16,0.23,0.27,1)
+
+[node name="MainRoute_00" type="StaticBody2D" parent="." groups=["grabbable"]]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="MainRoute_00"]
+
+polygon = PackedVector2Array(0, 640, 400, 640, 600, 670, 900, 700, 2850, 700, 2850, 950, 0, 950)
+
+[node name="Surface" type="Polygon2D" parent="MainRoute_00"]
+
+polygon = PackedVector2Array(0, 640, 400, 640, 600, 670, 900, 700, 2850, 700, 2850, 950, 0, 950)
+
+color = Color(0.39, 0.43, 0.38, 1)
+
+[node name="TopEdge" type="Line2D" parent="MainRoute_00"]
+
+points = PackedVector2Array(0, 640, 400, 640, 600, 670, 900, 700, 2850, 700)
+
+width = 2.0
+
+default_color = Color(0.80, 0.84, 0.70, 1)
+
+[node name="MainRoute_01" type="StaticBody2D" parent="." groups=["grabbable"]]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="MainRoute_01"]
+
+polygon = PackedVector2Array(2910, 700, 3100, 670, 3300, 640, 3500, 640, 3650, 670, 3820, 640, 4000, 640, 4000, 950, 2910, 950)
+
+[node name="Surface" type="Polygon2D" parent="MainRoute_01"]
+
+polygon = PackedVector2Array(2910, 700, 3100, 670, 3300, 640, 3500, 640, 3650, 670, 3820, 640, 4000, 640, 4000, 950, 2910, 950)
+
+color = Color(0.39, 0.43, 0.38, 1)
+
+[node name="TopEdge" type="Line2D" parent="MainRoute_01"]
+
+points = PackedVector2Array(2910, 700, 3100, 670, 3300, 640, 3500, 640, 3650, 670, 3820, 640, 4000, 640)
+
+width = 2.0
+
+default_color = Color(0.80, 0.84, 0.70, 1)
+
+[node name="Alternative_00" type="StaticBody2D" parent="." groups=["grabbable"]]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="Alternative_00"]
+
+polygon = PackedVector2Array(750, 610, 930, 610, 930, 628, 750, 628)
+
+one_way_collision = true
+
+[node name="Surface" type="Polygon2D" parent="Alternative_00"]
+
+polygon = PackedVector2Array(750, 610, 930, 610, 930, 628, 750, 628)
+
+color = Color(0.46, 0.46, 0.36, 1)
+
+[node name="TopEdge" type="Line2D" parent="Alternative_00"]
+
+points = PackedVector2Array(750, 610, 930, 610)
+
+width = 2.0
+
+default_color = Color(0.76, 0.63, 0.40, 1)
+
+[node name="Alternative_01" type="StaticBody2D" parent="." groups=["grabbable"]]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="Alternative_01"]
+
+polygon = PackedVector2Array(1000, 610, 1140, 610, 1140, 628, 1000, 628)
+
+one_way_collision = true
+
+[node name="Surface" type="Polygon2D" parent="Alternative_01"]
+
+polygon = PackedVector2Array(1000, 610, 1140, 610, 1140, 628, 1000, 628)
+
+color = Color(0.46, 0.46, 0.36, 1)
+
+[node name="TopEdge" type="Line2D" parent="Alternative_01"]
+
+points = PackedVector2Array(1000, 610, 1140, 610)
+
+width = 2.0
+
+default_color = Color(0.76, 0.63, 0.40, 1)
+
+[node name="Alternative_02" type="StaticBody2D" parent="." groups=["grabbable"]]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="Alternative_02"]
+
+polygon = PackedVector2Array(1200, 580, 1380, 580, 1380, 598, 1200, 598)
+
+one_way_collision = true
+
+[node name="Surface" type="Polygon2D" parent="Alternative_02"]
+
+polygon = PackedVector2Array(1200, 580, 1380, 580, 1380, 598, 1200, 598)
+
+color = Color(0.46, 0.46, 0.36, 1)
+
+[node name="TopEdge" type="Line2D" parent="Alternative_02"]
+
+points = PackedVector2Array(1200, 580, 1380, 580)
+
+width = 2.0
+
+default_color = Color(0.76, 0.63, 0.40, 1)
+
+[node name="Alternative_03" type="StaticBody2D" parent="." groups=["grabbable"]]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="Alternative_03"]
+
+polygon = PackedVector2Array(1450, 610, 1610, 610, 1610, 628, 1450, 628)
+
+one_way_collision = true
+
+[node name="Surface" type="Polygon2D" parent="Alternative_03"]
+
+polygon = PackedVector2Array(1450, 610, 1610, 610, 1610, 628, 1450, 628)
+
+color = Color(0.46, 0.46, 0.36, 1)
+
+[node name="TopEdge" type="Line2D" parent="Alternative_03"]
+
+points = PackedVector2Array(1450, 610, 1610, 610)
+
+width = 2.0
+
+default_color = Color(0.76, 0.63, 0.40, 1)
+
+[node name="Alternative_04" type="StaticBody2D" parent="." groups=["grabbable"]]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="Alternative_04"]
+
+polygon = PackedVector2Array(1700, 640, 1850, 640, 1850, 658, 1700, 658)
+
+one_way_collision = true
+
+[node name="Surface" type="Polygon2D" parent="Alternative_04"]
+
+polygon = PackedVector2Array(1700, 640, 1850, 640, 1850, 658, 1700, 658)
+
+color = Color(0.46, 0.46, 0.36, 1)
+
+[node name="TopEdge" type="Line2D" parent="Alternative_04"]
+
+points = PackedVector2Array(1700, 640, 1850, 640)
+
+width = 2.0
+
+default_color = Color(0.76, 0.63, 0.40, 1)
+
+[node name="Alternative_05" type="StaticBody2D" parent="." groups=["grabbable"]]
+
+collision_layer = 2
+
+collision_mask = 0
+
+[node name="Collision" type="CollisionPolygon2D" parent="Alternative_05"]
+
+polygon = PackedVector2Array(2820, 750, 3020, 750, 3020, 768, 2820, 768)
+
+one_way_collision = true
+
+[node name="Surface" type="Polygon2D" parent="Alternative_05"]
+
+polygon = PackedVector2Array(2820, 750, 3020, 750, 3020, 768, 2820, 768)
+
+color = Color(0.46, 0.46, 0.36, 1)
+
+[node name="TopEdge" type="Line2D" parent="Alternative_05"]
+
+points = PackedVector2Array(2820, 750, 3020, 750)
+
+width = 2.0
+
+default_color = Color(0.76, 0.63, 0.40, 1)
+
+[node name="Landmark_00" type="Node2D" parent="."]
+
+[node name="Surface" type="Polygon2D" parent="Landmark_00"]
+
+polygon = PackedVector2Array(1300, 330, 1350, 330, 1350, 550, 1300, 550)
+
+color = Color(0.24,0.31,0.32,1)
+
+[node name="Landmark_01" type="Node2D" parent="."]
+
+[node name="Surface" type="Polygon2D" parent="Landmark_01"]
+
+polygon = PackedVector2Array(3000, 380, 3300, 380, 3300, 405, 3000, 405)
+
+color = Color(0.30,0.35,0.36,1)

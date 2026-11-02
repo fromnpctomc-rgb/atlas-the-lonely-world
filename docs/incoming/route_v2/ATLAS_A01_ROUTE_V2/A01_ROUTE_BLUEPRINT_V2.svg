@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="850" viewBox="0 0 2200 850">
+<rect width="2200" height="850" fill="#17222b"/>
+<text x="65" y="65" font-size="35" font-family="sans-serif" font-weight="bold" fill="#f4e9d2">ATLAS — A01 NOMAD SETTLEMENT | ROUTE BLUEPRINT V2</text>
+<text x="65" y="100" font-size="19" font-family="sans-serif" fill="#afc0ba">Strict side-view • screen-right progression • schematic geometry only • heights and gaps CALIBRATE in Godot</text>
+<g fill="#ffffff" fill-opacity=".035" stroke="#647780" stroke-dasharray="10 10"><rect x="60" y="135" width="610" height="580" rx="12"/><rect x="670" y="135" width="900" height="580" rx="12"/><rect x="1570" y="135" width="570" height="580" rx="12"/></g>
+<g font-size="25" font-family="sans-serif" fill="#e9ce95"><text x="90" y="177">S01 · OKTO'S HOME</text><text x="700" y="177">S02 · VILLAGE &amp; OLD TREE</text><text x="1600" y="177">S03 · RIDGE FOOT</text></g>
+<!-- terrain side-view main silhouette -->
+<path d="M65 315 L175 315 Q205 315 225 343 L292 420 L390 420 Q425 420 450 462 L510 498 L590 498 Q625 498 650 465 L700 465 L760 465 Q790 465 805 425 L838 390 L920 390 Q948 390 960 345 L985 322 L1050 322 L1100 405 L1170 405 Q1205 405 1220 455 L1270 505 L1370 505 Q1405 505 1430 460 L1470 460 L1550 460 L1590 495 L1665 495 L1715 465 L1770 465 Q1805 465 1825 505 L1880 540 L1950 540 Q1980 540 2000 490 L2060 410 L2135 365 L2135 710 L65 710Z" fill="#746953" stroke="#d2c29a" stroke-width="5" stroke-linejoin="round"/>
+<path d="M65 315 L175 315 Q205 315 225 343 L292 420 L390 420 Q425 420 450 462 L510 498 L590 498 Q625 498 650 465 L700 465 L760 465 Q790 465 805 425 L838 390 L920 390 Q948 390 960 345 L985 322 L1050 322 L1100 405 L1170 405 Q1205 405 1220 455 L1270 505 L1370 505 Q1405 505 1430 460 L1470 460 L1550 460 L1590 495 L1665 495 L1715 465 L1770 465 Q1805 465 1825 505 L1880 540 L1950 540 Q1980 540 2000 490 L2060 410 L2135 365" fill="none" stroke="#a9c38a" stroke-width="14" stroke-linejoin="round" stroke-linecap="round"/>
+<!-- optional elevated village route -->
+<path d="M720 463 Q750 405 785 365 L855 345 L910 345 Q950 345 980 322" fill="none" stroke="#f5c878" stroke-width="6" stroke-dasharray="14 10"/>
+<!-- village lower pocket -->
+<path d="M1120 405 Q1130 520 1190 565 L1310 565 Q1370 560 1430 460" fill="none" stroke="#f5c878" stroke-width="6" stroke-dasharray="14 10"/>
+<!-- panorama side pocket -->
+<path d="M1700 465 Q1730 390 1795 370 L1850 370 Q1900 385 1920 460 L1950 540" fill="none" stroke="#f5c878" stroke-width="6" stroke-dasharray="14 10"/>
+<!-- bridge schematic -->
+<path d="M1550 458 L1590 493" stroke="#d9a46e" stroke-width="13"/><path d="M1545 448 L1595 483" stroke="#eed6a1" stroke-width="4"/>
+<g fill="#f6eddc" font-size="19" font-family="sans-serif" text-anchor="middle"><text x="140" y="272">HOME / SPAWN</text><text x="345" y="382">LOW TERRACE</text><text x="540" y="550">LOWER YARD</text><text x="860" y="286">OLD TREE / ROOT CLIMB</text><text x="1190" y="365">COMMUNAL TERRACE</text><text x="1320" y="620">VILLAGE POCKET</text><text x="1605" y="430">BRIDGE</text><text x="1820" y="328">PANORAMA POCKET</text><text x="2060" y="315">ASCENT TO A02</text></g>
+<g font-size="16" font-family="sans-serif" fill="#f2c477"><text x="740" y="325">OPTIONAL UPPER ROUTE</text><text x="1120" y="598">OPTIONAL LOWER ROUTE</text></g>
+<g fill="#f5cf8c"><circle cx="90" cy="315" r="10"/><circle cx="2130" cy="366" r="10"/></g>
+<g font-family="sans-serif" font-size="21" fill="#dce6e1"><text x="65" y="775">START → safe onboarding</text><text x="1700" y="775">EXIT → matched A02 entry tangent</text></g>
+<text x="65" y="820" font-family="sans-serif" font-size="18" fill="#9db0a9">Route variation proposal: natural slopes, low stone lips, safe drops, branch/rejoin. No perspective stairs or fatal gaps.</text>
+</svg>

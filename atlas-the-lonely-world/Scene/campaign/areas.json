@@ -1,0 +1,212 @@
+[
+  {
+	"name": "Nomad Settlement",
+	"region": "R01 \u00b7 Nomad Valley",
+	"color": "7e8265",
+	"sky": "394c4a",
+	"profile": [
+	  500,
+	  535,
+	  560,
+	  535,
+	  560
+	],
+	"discovery": "Jejak rumah dan batas lembah",
+	"action": ""
+  },
+  {
+	"name": "Survey Ridge",
+	"region": "R01 \u00b7 Nomad Valley",
+	"color": "7e8265",
+	"sky": "394c4a",
+	"profile": [
+	  610,
+	  580,
+	  550,
+	  520,
+	  560
+	],
+	"discovery": "Jejak rumah dan batas lembah",
+	"action": ""
+  },
+  {
+	"name": "Cliff Passage",
+	"region": "R01 \u00b7 Nomad Valley",
+	"color": "7e8265",
+	"sky": "394c4a",
+	"profile": [
+	  500,
+	  530,
+	  570,
+	  610,
+	  560
+	],
+	"discovery": "Jejak rumah dan batas lembah",
+	"action": ""
+  },
+  {
+	"name": "Crossing Rim",
+	"region": "R02 \u00b7 Broken Crossing",
+	"color": "5f707a",
+	"sky": "263640",
+	"profile": [
+	  560,
+	  520,
+	  580,
+	  540,
+	  560
+	],
+	"discovery": "Retakan dan penyeberangan rusak",
+	"action": ""
+  },
+  {
+	"name": "Fallen Span",
+	"region": "R02 \u00b7 Broken Crossing",
+	"color": "5f707a",
+	"sky": "263640",
+	"profile": [
+	  465,
+	  490,
+	  560,
+	  610,
+	  560
+	],
+	"discovery": "Retakan dan penyeberangan rusak",
+	"action": "Lepaskan tuas kisi untuk jalur Moss"
+  },
+  {
+	"name": "Shared Bridgeworks",
+	"region": "R02 \u00b7 Broken Crossing",
+	"color": "5f707a",
+	"sky": "263640",
+	"profile": [
+	  560,
+	  530,
+	  570,
+	  510,
+	  560
+	],
+	"discovery": "Retakan dan penyeberangan rusak",
+	"action": "Angkat penyangga jalur kecil"
+  },
+  {
+	"name": "Downstream Descent",
+	"region": "R02 \u00b7 Broken Crossing",
+	"color": "5f707a",
+	"sky": "263640",
+	"profile": [
+	  480,
+	  515,
+	  550,
+	  585,
+	  560
+	],
+	"discovery": "Retakan dan penyeberangan rusak",
+	"action": ""
+  },
+  {
+	"name": "Aqueduct Terraces",
+	"region": "R03 \u00b7 Overgrown Aqueduct",
+	"color": "668766",
+	"sky": "294d48",
+	"profile": [
+	  560,
+	  535,
+	  585,
+	  520,
+	  560
+	],
+	"discovery": "Aliran air, akar dan infrastruktur hidup",
+	"action": ""
+  },
+  {
+	"name": "Rooted Sluice",
+	"region": "R03 \u00b7 Overgrown Aqueduct",
+	"color": "668766",
+	"sky": "294d48",
+	"profile": [
+	  560,
+	  540,
+	  580,
+	  530,
+	  560
+	],
+	"discovery": "Aliran air, akar dan infrastruktur hidup",
+	"action": "Buka limpasan / turunkan tekanan air"
+  },
+  {
+	"name": "Twin-Made Courtyard",
+	"region": "R03 \u00b7 Overgrown Aqueduct",
+	"color": "668766",
+	"sky": "294d48",
+	"profile": [
+	  560,
+	  520,
+	  580,
+	  545,
+	  560
+	],
+	"discovery": "Aliran air, akar dan infrastruktur hidup",
+	"action": "Angkat penyangga halaman"
+  },
+  {
+	"name": "Wild Channel Meadow",
+	"region": "R03 \u00b7 Overgrown Aqueduct",
+	"color": "668766",
+	"sky": "294d48",
+	"profile": [
+	  560,
+	  580,
+	  550,
+	  520,
+	  560
+	],
+	"discovery": "Aliran air, akar dan infrastruktur hidup",
+	"action": ""
+  },
+  {
+	"name": "Sheltered Galleries",
+	"region": "R04 \u00b7 Echoing Ruins",
+	"color": "777b7d",
+	"sky": "252c37",
+	"profile": [
+	  610,
+	  580,
+	  550,
+	  520,
+	  560
+	],
+	"discovery": "Sambungan struktur dan jejak peradaban",
+	"action": ""
+  },
+  {
+	"name": "Resonant Survey Hall",
+	"region": "R04 \u00b7 Echoing Ruins",
+	"color": "777b7d",
+	"sky": "252c37",
+	"profile": [
+	  560,
+	  530,
+	  580,
+	  520,
+	  560
+	],
+	"discovery": "Sambungan struktur dan jejak peradaban",
+	"action": "Lepaskan pemberat rangka"
+  },
+  {
+	"name": "Ascending Works",
+	"region": "R04 \u00b7 Echoing Ruins",
+	"color": "777b7d",
+	"sky": "252c37",
+	"profile": [
+	  650,
+	  615,
+	  580,
+	  530,
+	  560
+	],
+	"discovery": "Sambungan struktur dan jejak peradaban",
+	"action": ""
+  }
+]

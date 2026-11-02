@@ -1,0 +1,105 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS A01 instantiates
+PASS A01 companion encounter ordering
+PASS A01 physical navigation anchors
+PASS A01 actual player traversal (x=2798)
+PASS A02 instantiates
+PASS A02 companion encounter ordering
+PASS A02 physical navigation anchors
+PASS A02 actual player traversal (x=2833)
+PASS A03 instantiates
+PASS A03 companion encounter ordering
+PASS A03 physical navigation anchors
+PASS A03 actual player traversal (x=2797)
+PASS A04 instantiates
+PASS A04 companion encounter ordering
+PASS A04 physical navigation anchors
+PASS A04 actual player traversal (x=2832)
+PASS A05 instantiates
+PASS A05 companion encounter ordering
+PASS A05 physical navigation anchors
+PASS A05 unfinished gate remains closed
+PASS A05 completed gate opens
+PASS A05 actual player traversal (x=2835)
+PASS A05 companion reaches exit (x=2835)
+PASS A06 instantiates
+PASS A06 companion encounter ordering
+PASS A06 physical navigation anchors
+PASS A06 unfinished gate remains closed
+PASS A06 completed gate opens
+PASS A06 actual player traversal (x=2834)
+PASS A06 companion reaches exit (x=2833)
+PASS A07 instantiates
+PASS A07 companion encounter ordering
+PASS A07 physical navigation anchors
+PASS A07 actual player traversal (x=2833)
+PASS A07 companion reaches exit (x=2834)
+PASS A08 instantiates
+PASS A08 companion encounter ordering
+PASS A08 physical navigation anchors
+PASS A08 actual player traversal (x=2833)
+PASS A08 companion reaches exit (x=2833)
+PASS A09 instantiates
+PASS A09 companion encounter ordering
+PASS A09 physical navigation anchors
+PASS A09 unfinished gate remains closed
+PASS A09 completed gate opens
+PASS A09 actual player traversal (x=2834)
+PASS A09 companion reaches exit (x=2830)
+PASS A10 instantiates
+PASS A10 companion encounter ordering
+PASS A10 physical navigation anchors
+PASS A10 unfinished gate remains closed
+PASS A10 completed gate opens
+PASS A10 actual player traversal (x=2834)
+PASS A10 companion reaches exit (x=2835)
+PASS A11 instantiates
+PASS A11 companion encounter ordering
+PASS A11 physical navigation anchors
+PASS A11 actual player traversal (x=2824)
+PASS A11 companion reaches exit (x=2824)
+PASS A12 instantiates
+PASS A12 companion encounter ordering
+PASS A12 physical navigation anchors
+PASS A12 actual player traversal (x=2833)
+PASS A12 companion reaches exit (x=2833)
+PASS A13 instantiates
+PASS A13 companion encounter ordering
+PASS A13 physical navigation anchors
+PASS A13 unfinished gate remains closed
+PASS A13 completed gate opens
+PASS A13 actual player traversal (x=2834)
+PASS A13 companion reaches exit (x=2836)
+PASS A14 instantiates
+PASS A14 companion encounter ordering
+PASS A14 physical navigation anchors
+PASS A14 actual player traversal (x=2834)
+PASS A14 companion reaches exit (x=2833)
+MOSS DEBUG (1149.032, 559.9338) velocity (0.0, 0.0) state OBSERVE route [(1140.0, 560.0), (1215.0, 560.0)]
+CACHE [(1140.0, 560.0), (1215.0, 560.0)] NEXT 1
+PASS Moss physically follows across first terrain modules (x=1149.0)
+PASS Moss remains on a physical surface
+PASS A05 Moss crosses physical approach (x=1362)
+PASS A05 physical Moss cooperation
+PASS A05 hold interaction completes mechanism
+PASS A06 Moss crosses physical approach (x=1355)
+PASS A06 physical Moss cooperation
+PASS A06 hold interaction completes mechanism
+PASS A07 Moss crosses physical approach (x=1364)
+PASS A08 Moss crosses physical approach (x=1356)
+PASS A09 Moss crosses physical approach (x=1356)
+PASS A09 physical Moss cooperation
+PASS A09 hold interaction completes mechanism
+PASS A10 Moss crosses physical approach (x=1355)
+PASS A10 physical Moss cooperation
+PASS A10 hold interaction completes mechanism
+PASS A11 Moss crosses physical approach (x=1356)
+PASS A12 Moss crosses physical approach (x=1356)
+PASS A13 Moss crosses physical approach (x=1356)
+PASS A13 physical Moss cooperation
+PASS A13 hold interaction completes mechanism
+PASS A14 Moss crosses physical approach (x=1361)
+PASS Fixed jump apex on tap/hold
+PASS Checkpoint round trip
+CAMPAIGN FAILURES: 0

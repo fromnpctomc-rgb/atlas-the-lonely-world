@@ -1,0 +1,33 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://Script/characters/okto.gd" id="1"]
+[ext_resource type="Script" path="res://Script/characters/follow_camera.gd" id="2"]
+[ext_resource type="SpriteFrames" path="res://Assets/art/okto/okto_frames.tres" id="3"]
+[sub_resource type="CapsuleShape2D" id="Capsule"]
+radius = 12.0
+height = 54.0
+
+[node name="Okto" type="CharacterBody2D"]
+collision_layer = 1
+collision_mask = 2
+script = ExtResource("1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -27)
+shape = SubResource("Capsule")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(0, -90)
+zoom = Vector2(4, 4)
+limit_left = 0
+limit_top = 0
+limit_right = 2800
+limit_bottom = 900
+position_smoothing_enabled = true
+position_smoothing_speed = 6.0
+script = ExtResource("2")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 4
+sprite_frames = ExtResource("3")
+animation = &"idle"
